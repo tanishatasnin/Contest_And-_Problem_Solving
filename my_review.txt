@@ -1,0 +1,46 @@
+Review of n.txt
+
+SECTION 1: Main Problems
+
+1. Review methodology is missing: no databases, keywords, date range, or paper-selection criteria.
+
+2. Undefined reference: \ref{sec:challenges} is used, but the section label does not exist.
+
+3. Typo in label: sec:methology should be sec:methodology.
+
+4. Required files are missing: Figures/TaxonomyMap.png and sn-bibliography.bib.
+
+5. The taxonomy mixes stages, mechanisms, learning objectives, and model families. These categories are not fully consistent.
+
+6. Adaptive fusion is listed as a stage, although it can be used at any fusion stage.
+
+7. Asynchronous data is mentioned but not discussed as deeply as missing, noisy, and imbalanced data.
+
+8. Tables mostly organize papers; they do not provide enough comparable results or experimental conditions.
+
+9. Duplicate declarations/template text remains at the end.
+
+10. Some grammar, terminology, author-name, citation, and consistency issues remain.
+
+
+SECTION 2: Main Improvements
+
+1. Add a short, reproducible review-methodology section.
+
+2. Apply the seven taxonomy dimensions to a consistent table of representative papers.
+
+3. Separate fusion stage, mechanism, learning objective, architecture, and data condition more clearly.
+
+4. Treat adaptive fusion as a cross-cutting property, not a separate stage.
+
+5. Add a dedicated discussion of asynchronous fusion and temporal alignment.
+
+6. Improve benchmark comparison with dataset version, split, task, metric, and limitations.
+
+7. Add unimodal baselines, modality ablations, robustness tests, efficiency, and calibration comparisons.
+
+8. Remove repeated explanations and unsupported broad claims.
+
+9. Fix the undefined reference, label typo, missing files, duplicate declarations, and author-name inconsistency.
+
+10. Rename n.txt to a .tex file and compile-test the manuscript before submission.
